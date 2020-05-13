@@ -1,0 +1,11 @@
+form {
+  display: none;
+}
+
+fieldset {
+  width: 200px;
+}
+
+input {
+  width: 150px;
+}

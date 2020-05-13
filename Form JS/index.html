@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random Appp</title>
+    <script src="grade.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <label>Student ID:</label><br />
+    <input type="number" id="id" /><br />
+    <label>Student Name:</label><br />
+    <input type="text" id="name" /><br />
+    <label>Score 1:</label><br />
+    <input type="number" id="sci1" max="10" min="0" /><br />
+    <label>Score 2:</label><br />
+    <input type="number" id="sci2" max="10" min="0" /><br />
+    <label>Score 3:</label><br />
+    <input type="number" id="sci3" max="10" min="0" /><br />
+    <button id="submit" onclick="toggleForm()">Submit</button>
+    <button onclick="RemoveForm()">Remove</button>
+    <br />
+    <br />
+    <br />
+    <form id="Form">
+      <fieldset>
+        <legend id="legend">Kaspersky</legend>
+        <label>Student ID: <label id="stdid"></label> </label>
+        <br />
+        <br />
+        <label>Score 1: <label id="sc1"></label></label>
+        <br />
+        <label>Score 2: <label id="sc2"></label></label>
+        <br />
+        <label>Score 3: <label id="sc3"></label></label>
+        <br />
+        <label>Total Score : <label id="tsc"></label></label>
+        <br />
+        <label>Percentage Score : <label id="psc"></label></label>
+        <br />
+        <label id="result"></label>
+      </fieldset>
+    </form>
+  </body>
+</html>
